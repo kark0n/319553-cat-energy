@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Константин Тетерюков](https://up.htmlacademy.ru/adaptive/15/user/319553).
-* Наставник: [Гоша Егорян].
+* Наставник: [Гоша Егорян](https://up.htmlacademy.ru/adaptive/15/user/85633).
 
 ---
 
