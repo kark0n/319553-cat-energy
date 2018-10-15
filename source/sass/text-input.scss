@@ -1,3 +1,15 @@
-.form-program {
+.text-input {
   outline: 1px dotted black;
+}
+.text-input__label {
+  font-size: 16px;
+  line-height: 18px;
+  color: $black2;
+  text-transform: uppercase;
+}
+.text-input__input {
+  font-size: 16px;
+  line-height: 18px;
+  color: $black4;
+  text-transform: uppercase;
 }
