@@ -1,3 +1,6 @@
 .catalog {
   outline: 1px dotted black;
 }
+.catalog__title {
+  @include title-font;
+}
