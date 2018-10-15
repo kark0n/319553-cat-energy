@@ -1,3 +1,31 @@
 .addons {
   outline: 1px dotted black;
 }
+.addons__title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.addons__list {
+  @include list-reset;
+}
+.addons__item-name {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: $black2;
+}
+.addons__pack {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  font-family: $font-second;
+  color: $black2;
+}
+.addons__price {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  font-family: $font-second;
+  color: $black2;
+}
