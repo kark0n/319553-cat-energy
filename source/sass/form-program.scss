@@ -1,18 +1,22 @@
 .form-program {
   outline: 1px dotted black;
 }
+
 .form-program__title {
   @include title-font;
 }
+
 .form-program__descr {
   text-transform: uppercase;
 }
+
 .form-program__sub-title {
   @include title-font;
   font-size: 24px;
   line-height: 24px;
   color: $black1;
 }
+
 .form-program__note {
   font-size: 14px;
   line-height: 16px;
