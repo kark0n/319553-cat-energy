@@ -1,7 +1,11 @@
 .site-menu {
+
+  outline: 1px dotted yellowgreen;
+}
+.site-menu__link {
   font-size: 20px;
   line-height: 20px;
   font-weight: 500;
-  outline: 1px dotted yellowgreen;
-  list-style: none;
+  color: $black1;
+  text-transform: uppercase;
 }

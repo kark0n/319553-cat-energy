@@ -1,3 +1,22 @@
 .categories-item {
   outline: 1px dotted black;
 }
+.categories-item__title {
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.categories-item {
+  background-color: #f2f2f2;
+}
+.categories-item__text {
+color: $black4;
+font-family: $font-second;
+}
+.categories-item__link {
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $black1;
+}

@@ -1,6 +1,6 @@
 .main-nav {
-  font-size: 20px;
-  line-height: 20px;
-  font-weight: 500;
   outline: 1px dotted red;
+}
+.main-nav__list {
+  @include list-reset;
 }
