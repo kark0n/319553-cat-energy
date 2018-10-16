@@ -1,0 +1,13 @@
+.products-promo {
+  outline: 1px dotted black;
+  background-image: url("../img/gift-photo-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: 320px 305px;
+}
+
+.products-promo__text {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: $font-second;
+  color: white;
+}

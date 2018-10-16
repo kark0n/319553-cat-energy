@@ -1,0 +1,24 @@
+body {
+  min-width: 320px;
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 18px;
+  color: $black1;
+  background-color: white;
+  font-family: $font-main;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+
+  clip: rect(0, 0, 0, 0);
+}

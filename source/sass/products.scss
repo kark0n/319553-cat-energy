@@ -1,0 +1,31 @@
+.products {
+  outline: 1px dotted black;
+}
+
+.products__name {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.products__table-row {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: $font-second;
+  color: $black4;
+}
+
+.products__more-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.products__more-text {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: $font-second;
+  color: $black4;
+}

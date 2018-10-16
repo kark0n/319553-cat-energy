@@ -1,0 +1,5 @@
+.social-list {
+  outline: 1px dotted black;
+
+  @include list-reset;
+}

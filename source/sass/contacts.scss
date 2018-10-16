@@ -1,0 +1,21 @@
+.contacts {
+  outline: 1px dotted black;
+}
+
+.contacts__title {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.contacts__adress {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: $font-second;
+  color: $black4;
+}

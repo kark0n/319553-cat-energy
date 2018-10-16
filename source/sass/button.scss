@@ -1,0 +1,49 @@
+.button {
+  display: inline-block;
+  margin: 0;
+  padding: 20px 0;
+  background-color: $green;
+
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+
+  width: 280px;
+  outline: 1px dotted black;
+  border: none;
+  cursor: pointer;
+}
+
+.button--promo {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 11px 0;
+}
+
+.button--products {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.button--products-more {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 0;
+  color: $black4;
+  background-color: #f2f2f2;
+}
+
+.button--addons {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.button--form-program {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 0;
+}
