@@ -1,6 +1,6 @@
 .example {
-  outline: 1px dotted black;
   background-color: #f2f2f2;
+  padding: 20px 20px;
 }
 
 .example__title {
@@ -8,28 +8,48 @@
 }
 
 .example__text {
-  margin: 0;
+  margin-top: 40px;
   padding: 0;
+  width:270px;
   font-family: $font-second;
   color: $black4;
 }
 
 .example__list {
   @include list-reset;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example__item {
+  text-align: center;
+  position: relative;
+  width: 122px;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
 }
 
 .example__item-value {
   margin: 0;
-  padding: 0;
+  padding: 14px 0 16px;
   font-size: 24px;
   line-height: 24px;
+  text-transform: uppercase;
 }
 
 .example__item-name {
-  margin: 0;
-  padding: 0;
+  display: block;
   font-size: 12px;
   line-height: 12px;
   font-family: $font-second;
   color: $black4;
+  position: absolute;
+  top: 35px;
+  left:17px;
+  padding-right: 8px;
+  padding-left: 8px;
+  width: 70px;
+  background-color: #f2f2f2;
+  z-index: 1;
 }

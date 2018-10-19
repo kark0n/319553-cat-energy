@@ -1,3 +1,33 @@
 .social-button {
   outline: 1px dotted black;
+  width: 22px;
+  height: 12px;
+}
+.social-button::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+
+  width: 30px;
+  height: 30px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.social-button--vk::before {
+  background-image: url("../img/icon-vk-mobile.svg");
+  background-size: 22px 15px;
+}
+
+.social-button--inst::before {
+  background-image: url("../img/icon-insta-mobile.svg");
+  background-size: 17px 17px;
+}
+
+.social-button--fb::before {
+  background-image: url("../img/icon-fb-mobile.svg");
+  background-size: 10px 19px;
 }

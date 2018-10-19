@@ -7,9 +7,11 @@
 
 .promo__title {
   @include title-font;
+  padding-top: 40px;
   font-size: 36px;
   line-height: 36px;
   color: white;
+  text-align: center;
 }
 
 .promo__text {
@@ -17,4 +19,7 @@
   line-height: 14px;
   color: white;
   text-transform: uppercase;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 300px;
 }

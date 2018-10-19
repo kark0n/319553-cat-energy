@@ -1,13 +1,23 @@
 .contacts {
   outline: 1px dotted black;
+  background-color: white;
+
 }
 
+.contacts__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 30px auto;
+  width: 280px;
+  justify-content: space-between;
+}
 .contacts__title {
   margin: 0;
   padding: 0;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .contacts__adress {

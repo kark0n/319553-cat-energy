@@ -1,6 +1,6 @@
 .categories-item {
-  outline: 1px dotted black;
   background-color: #f2f2f2;
+  margin-top: 20px;
 }
 
 .categories-item__title {
@@ -8,16 +8,24 @@
   line-height: 37px;
   font-weight: 400;
   text-transform: uppercase;
+  text-align: center;
+  padding: 40px 0;
+  margin: 0;
 }
 
 .categories-item__text {
+  margin: 0 22px 25px 22px;
   color: $black4;
   font-family: $font-second;
 }
 
 .categories-item__link {
+  display: block;
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
   color: $black1;
+  padding: 20px 0;
+  margin: 0 20px;
+  border-top: 1px solid #d9d9d9;
 }

@@ -3,7 +3,36 @@
 }
 
 .slider__title {
+  margin-top: 40px;
   line-height: 20px;
   text-transform: uppercase;
   font-weight: 400;
+  text-align: center;
+}
+
+.slider__img {
+  width: 320px;
+  height: 240px;
+  margin-bottom: 33px;
+}
+
+.slider__range-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.slider__range-descr {
+  margin: 0;
+
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.slider__range-descr--before {
+  margin-right: 20px;
+}
+
+.slider__range-descr--after {
+  margin-left: 20px;
 }

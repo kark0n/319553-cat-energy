@@ -1,7 +1,11 @@
 .main-nav {
-  outline: 1px dotted red;
+  //outline: 1px dotted red;
+
 }
 
 .main-nav__list {
   @include list-reset;
+}
+.main-nav__toggle {
+  display: none
 }

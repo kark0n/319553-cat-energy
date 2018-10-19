@@ -1,22 +1,50 @@
 .advantages {
-  outline: 1px dotted black;
+  margin-bottom: 20px;
+  padding: 0 20px;
 }
 
 .advantages__title {
-  margin: 0;
-  padding: 0;
-  font-size: 36px;
-  line-height: 60px;
-  font-weight: 400;
+ @include title-font;
+ margin: 20px 0;
 }
 
 .advantages__list {
   @include list-reset;
+  display: flex;
+  flex-direction: column;
 }
 
 .advantages__item {
+  position: relative;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
   font-family: $font-second;
+  padding-left: 80px;
+  margin-bottom: 35px;
+}
+
+.advantages__item::before {
+  position: absolute;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  content: "";
+  background-color: #68b738;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.advantages__item--leaf::before {
+  background-image: url(../img/advantage-leaf@1x.png);
+}
+
+.advantages__item--boil::before {
+  background-image: url(../img/advantage-powder@1x.png);
+}
+.advantages__item--knife::before {
+  background-image: url(../img/advantage-dining@1x.png);
+}
+.advantages__item--clock::before {
+  background-image: url(../img/advantage-clock@1x.png);
 }
