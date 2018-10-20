@@ -1,7 +1,10 @@
 .catalog {
   outline: 1px dotted black;
+  width: 320px;
+  padding: 0 0px;
 }
 
 .catalog__title {
   @include title-font;
+  padding: 20px;
 }

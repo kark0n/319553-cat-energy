@@ -1,15 +1,22 @@
 .addons {
-  outline: 1px dotted black;
+  padding: 0 20px 20px;
 }
 
 .addons__title {
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .addons__list {
   @include list-reset;
+}
+
+.addons__item {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .addons__item-name {
@@ -25,6 +32,7 @@
   font-weight: 400;
   font-family: $font-second;
   color: $black2;
+  text-align: left;
 }
 
 .addons__price {
@@ -33,4 +41,10 @@
   font-weight: 400;
   font-family: $font-second;
   color: $black2;
+  text-align: right;
+}
+
+.addons__table {
+  width: 280px;
+  margin-bottom: 15px;
 }

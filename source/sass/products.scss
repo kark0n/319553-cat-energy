@@ -1,5 +1,15 @@
-.products {
-  outline: 1px dotted black;
+.products{
+  border-top: 1px solid #ededed;
+}
+
+.products__item {
+  padding: 0 20px 20px;
+  border-bottom: 1px solid #ededed;
+}
+
+.products__item-wrap {
+  display: flex;
+  flex-direction: row;
 }
 
 .products__name {
@@ -7,6 +17,16 @@
   line-height: 20px;
   font-weight: 400;
   text-transform: uppercase;
+  padding: 15px 0 0;
+  margin: 0 0 11px;
+  width: 80px;
+}
+
+.products__table{
+  margin: 0;
+  padding: 0;
+  width: 140px;
+  border-collapse: collapse;
 }
 
 .products__table-row {
@@ -16,11 +36,32 @@
   color: $black4;
 }
 
+.products__table-column--left{
+  text-align: left;
+}
+
+.products__table-column--right{
+  text-align: right;
+}
+.products__more {
+ padding: 0 20px;
+ position: relative;
+}
+
 .products__more-title {
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
   text-transform: uppercase;
+  margin-top: 80px;
+  text-align: center;
+}
+.products__more-icon {
+  position: absolute;
+  top: -44px;
+  left: 45%;
+  fill: #d3d3d3;
+  opacity: 0.2;
 }
 
 .products__more-text {
@@ -28,4 +69,8 @@
   line-height: 16px;
   font-family: $font-second;
   color: $black4;
+  text-align: center;
+  margin-bottom: 25px;
 }
+
+
