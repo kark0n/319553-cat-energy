@@ -4,9 +4,16 @@
   margin: 0 20px;
 }
 
+@media (min-width: $tablet-width) {
+  .categories {
+    margin: 0 30px;
+  }
+}
+
 @media (min-width: $desktop-width) {
   .categories {
     display: flex;
     flex-direction: row;
+    margin: 0 30px;
   }
 }

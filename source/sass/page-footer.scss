@@ -29,3 +29,19 @@
   right: 20px;
   top: -15px;
 }
+
+@media (min-width: $tablet-width) {
+  .page-footer__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .page-footer__copyright {
+    width: 162px;
+    margin: auto 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+}

@@ -47,3 +47,18 @@
   line-height: 20px;
   padding: 10px 0;
 }
+
+@media (min-width: $tablet-width) {
+  .button--promo {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 16px 0;
+    width: 245px;
+    margin-left: 90px;
+    margin-bottom: 530px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+}

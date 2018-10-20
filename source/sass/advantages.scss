@@ -50,3 +50,38 @@
 .advantages__item--clock::before {
   background-image: url("../img/advantage-clock@1x.png");
 }
+
+@media (min-width: $tablet-width) {
+  .advantages {
+    padding: 0 30px;
+  }
+  .advantages__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 708px;
+  }
+  .advantages__item {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 120px 30px 50px 0;
+    margin-bottom: 35px;
+    width: 294px;
+  }
+  .advantages__item::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    content: "";
+    background-color: #68b738;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+}
