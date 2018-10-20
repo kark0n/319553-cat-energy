@@ -1,5 +1,5 @@
 .text-radio {
-  outline: 1px dotted black;
+  padding: 15px 0 15px 65px;
 }
 
 .text-radio__label {
@@ -7,4 +7,27 @@
   line-height: 18px;
   color: $black2;
   text-transform: uppercase;
+  position: relative;
+}
+
+.text-radio__label::before {
+  position: absolute;
+  top: -6px;
+  left: -55px;
+  width: 30px;
+  height: 30px;
+  content: "";
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+}
+
+.text-radio__input:checked + .text-radio__label::after {
+  position: absolute;
+  top: 4px;
+  left: -45px;
+  width: 12px;
+  height: 12px;
+  content: "";
+  background-color: $green;
+  border-radius: 50%;
 }

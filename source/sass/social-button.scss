@@ -3,15 +3,14 @@
   width: 22px;
   height: 12px;
 }
+
 .social-button::before {
   content: "";
   position: absolute;
   top: 10px;
   left: 0;
-
   width: 30px;
   height: 30px;
-
   background-repeat: no-repeat;
   background-position: center;
 }

@@ -1,5 +1,5 @@
 .text-checkbox {
-  outline: 1px dotted black;
+  padding: 15px 0 15px 65px;
 }
 
 .text-checkbox__label {
@@ -7,4 +7,26 @@
   line-height: 18px;
   color: $black2;
   text-transform: uppercase;
+  position: relative;
+}
+
+.text-checkbox__label::before {
+  position: absolute;
+  top: -6px;
+  left: -55px;
+  width: 30px;
+  height: 30px;
+  content: "";
+  border: 1px solid #e6e6e6;
+}
+
+.text-checkbox__input:checked + .text-checkbox__label::after {
+  position: absolute;
+  top: 2px;
+  left: -48px;
+  width: 21px;
+  height: 16px;
+  content: "";
+  background-image: url("../img/icon-tick.svg");
+  background-repeat: no-repeat;
 }

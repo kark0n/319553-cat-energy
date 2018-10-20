@@ -22,6 +22,7 @@
     flex-direction: row;
     width: 440px;
   }
+
   .site-menu__link {
     font-size: 18px;
     line-height: 25px;
@@ -30,11 +31,13 @@
     text-transform: uppercase;
   }
 }
+
 @media (min-width: $desktop-width) {
   .site-menu {
     width: 480px;
     background-color: $green;
   }
+
   .site-menu__link {
     font-size: 20px;
     line-height: 25px;

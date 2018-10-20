@@ -1,4 +1,4 @@
-.products{
+.products {
   border-top: 1px solid #ededed;
 }
 
@@ -22,7 +22,7 @@
   width: 80px;
 }
 
-.products__table{
+.products__table {
   margin: 0;
   padding: 0;
   width: 140px;
@@ -36,16 +36,17 @@
   color: $black4;
 }
 
-.products__table-column--left{
+.products__table-column--left {
   text-align: left;
 }
 
-.products__table-column--right{
+.products__table-column--right {
   text-align: right;
 }
+
 .products__more {
- padding: 0 20px;
- position: relative;
+  padding: 0 20px;
+  position: relative;
 }
 
 .products__more-title {
@@ -56,6 +57,7 @@
   margin-top: 80px;
   text-align: center;
 }
+
 .products__more-icon {
   position: absolute;
   top: -44px;
@@ -72,5 +74,3 @@
   text-align: center;
   margin-bottom: 25px;
 }
-
-
