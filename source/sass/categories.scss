@@ -6,7 +6,7 @@
 
 @media (min-width: $tablet-width) {
   .categories {
-    margin: 0 30px;
+    margin: 0 auto;
   }
 }
 
@@ -14,6 +14,7 @@
   .categories {
     display: flex;
     flex-direction: row;
-    margin: 0 30px;
+    justify-content: space-between;
+    width: 1220px;
   }
 }

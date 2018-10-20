@@ -1,5 +1,4 @@
 .site-menu {
-  //outline: 1px dotted yellowgreen;
   display: flex;
   flex-direction: column;
 }
@@ -20,7 +19,9 @@
   .site-menu {
     display: flex;
     flex-direction: row;
-    width: 440px;
+    width: 475px;
+    padding-right: 30px;
+
   }
 
   .site-menu__link {
@@ -29,12 +30,15 @@
     font-weight: 400;
     color: $black2;
     text-transform: uppercase;
+    padding: 0;
+    margin-left: 35px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .site-menu {
-    width: 480px;
+    width: 515px;
+    padding-right: 110px;
     background-color: $green;
   }
 

@@ -66,5 +66,8 @@
 }
 
 @media (min-width: $desktop-width) {
-
+  .categories-item {
+    padding: 30px 55px;
+    width: 460px;
+  }
 }
