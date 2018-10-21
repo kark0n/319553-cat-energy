@@ -7,3 +7,17 @@
   @include title-font;
   padding: 20px;
 }
+
+@media (min-width: $tablet-width) {
+  .catalog {
+    width: 708px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog {
+    width: 1220px;
+    margin: 0 auto;
+  }
+}

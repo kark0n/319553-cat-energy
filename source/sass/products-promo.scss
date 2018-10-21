@@ -16,3 +16,30 @@
   width: 180px;
   padding: 200px 50px 0 50px;
 }
+
+@media (min-width: $tablet-width) {
+  .products-promo {
+    background-image: url("../img/gift-photo-tablet@1x.jpg");
+    background-repeat: no-repeat;
+    background-size: 708px 200px;
+    min-height: 200px;
+  }
+  .products-promo__text {
+    text-align: left;
+    width: 165px;
+    padding: 75px 0 0 425px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .products-promo {
+    background-image: url("../img/gift-photo-desktop@1x.jpg");
+    background-repeat: no-repeat;
+    background-size: 245px 290px;
+    min-height: 290px;
+  }
+  .products-promo__text {
+    text-align: center;
+    padding: 190px 0 0 40px;
+  }
+}

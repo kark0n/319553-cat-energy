@@ -74,3 +74,34 @@
   text-align: center;
   margin-bottom: 25px;
 }
+
+@media (min-width: $tablet-width) {
+  .products {
+    border: none;
+    display: flex;
+    flex-basis: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .products__item {
+    margin:0;
+    padding:0;
+    width: 324px;
+    border: none;
+  }
+  .products__more {
+    width: 324px;
+    padding: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .products__item {
+    width: 245px;
+  }
+
+  .products__more {
+    width: 245px;
+  }
+}

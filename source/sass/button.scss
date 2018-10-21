@@ -57,10 +57,19 @@
     margin-left: 90px;
     margin-bottom: 530px;
   }
+
+  .button--addons {
+    padding: 10px 0;
+    width: 632px;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .button--promo {
     margin-bottom: 270px;
+  }
+  .button--addons {
+    padding: 10px 0;
+    width: 245px;
   }
 }

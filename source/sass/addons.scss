@@ -48,3 +48,49 @@
   width: 280px;
   margin-bottom: 15px;
 }
+
+@media (min-width: $tablet-width) {
+  .addons__list {
+    width: 708px;
+    margin: 0 auto;
+  }
+
+  .addons__item {
+    padding: 0 38px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+  }
+  .addons__item-name {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .addons__table {
+    width: 632px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .addons__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 895px;
+  }
+
+  .addons__table {
+    width: 285px;
+  }
+
+  .addons__item-name {
+    width: 285px;
+  }
+
+  .addons__addons-promo-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
