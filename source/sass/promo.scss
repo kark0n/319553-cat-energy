@@ -32,6 +32,7 @@
     width: 708px;
     margin: 0 auto;
   }
+
   .promo__title {
     @include title-font;
     padding-left: 90px;
@@ -39,8 +40,9 @@
     line-height: 60px;
     color: $black1;
     text-align: left;
-    width: 427px
+    width: 427px;
   }
+
   .promo__text {
     font-size: 20px;
     line-height: 20px;

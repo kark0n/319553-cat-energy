@@ -57,12 +57,13 @@
     width: 708px;
     margin: 0 auto;
   }
+
   .advantages__list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
   }
+
   .advantages__item {
     position: relative;
     font-size: 16px;
@@ -71,6 +72,7 @@
     margin-bottom: 35px;
     width: 294px;
   }
+
   .advantages__item::before {
     position: absolute;
     left: 0;
@@ -90,6 +92,7 @@
     width: 1220px;
     margin: 0 auto;
   }
+
   .advantages__item {
     width: 245px;
   }
