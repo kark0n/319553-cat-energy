@@ -32,43 +32,47 @@
       <form class="form-program" action="https://echo.htmlacademy.ru">
         <h1 class="form-program__title">Подбор программы</h1>
         <p class="form-program__descr">Заполните анкету и мы подберем программу питания для вашего кота</p>
-        <div class="form-program__wrap">
-          <div class="form-program__input-wrap text-input">
-            <label class="text-input__label" for="name">Имя:*</label>
-            <input class="text-input__input" id="name" type="text" placeholder="Барсик">
+        <div class="form-program__input-radio-wrap">
+          <div class="form-program__wrap">
+            <div class="form-program__input-wrap text-input">
+              <label class="text-input__label" for="name">Имя:*</label>
+              <input class="text-input__input" id="name" type="text" placeholder="Барсик">
+            </div>
+            <div class="form-program__input-wrap text-input">
+              <label class="text-input__label" for="weight">Вес (кг):*</label>
+              <input class="text-input__input" id="weight" type="text" placeholder="7">
+            </div>
+            <div class="form-program__input-wrap text-input">
+              <label class="text-input__label" for="age">Возраст (лет):</label>
+              <input class="text-input__input" id="age" type="text" placeholder="7">
+            </div>
           </div>
-          <div class="form-program__input-wrap text-input">
-            <label class="text-input__label" for="weight">Вес (кг):*</label>
-            <input class="text-input__input" id="weight" type="text" placeholder="7">
-          </div>
-          <div class="form-program__input-wrap text-input">
-            <label class="text-input__label" for="age">Возраст (лет):</label>
-            <input class="text-input__input" id="age" type="text" placeholder="7">
-          </div>
-        </div>
-        <div class="form-program__wrap form-program__wrap--radio">
-          <div class="form-program__input-wrap text-radio">
-            <input class="visually-hidden text-radio__input" id="slim" type="radio" name="program" value="slim" checked>
-            <label class= "text-radio__label" for="slim">Похудение</label>
-          </div>
-          <div class="form-program__input-wrap text-radio">
-            <input class="visually-hidden text-radio__input" id="pro" type="radio" name="program" value="pro">
-            <label class= "text-radio__label" for="pro">Набор массы</label>
-          </div>
-          <div class="form-program__input-wrap text-radio">
-            <input class="visually-hidden text-radio__input" id="unknown" type="radio" name="program" value="unknown">
-            <label class= "text-radio__label" for="unknown">Не знаю (Нужен ваш совет)</label>
+          <div class="form-program__wrap form-program__wrap--radio">
+            <div class="form-program__input-wrap text-radio">
+              <input class="visually-hidden text-radio__input" id="slim" type="radio" name="program" value="slim" checked>
+              <label class= "text-radio__label" for="slim">Похудение</label>
+            </div>
+            <div class="form-program__input-wrap text-radio">
+              <input class="visually-hidden text-radio__input" id="pro" type="radio" name="program" value="pro">
+              <label class= "text-radio__label" for="pro">Набор массы</label>
+            </div>
+            <div class="form-program__input-wrap text-radio">
+              <input class="visually-hidden text-radio__input" id="unknown" type="radio" name="program" value="unknown">
+              <label class= "text-radio__label" for="unknown">Не знаю (Нужен ваш совет)</label>
+            </div>
           </div>
         </div>
         <div class="form-program__wrap form-program__wrap--titled">
           <h2 class="form-program__sub-title">Контактные данные (владельца кота)</h2>
-          <div class="form-program__input-wrap text-input">
-            <label class="text-input__label" for="email">E-mail:*</label>
-            <input class="text-input__input" id="email" type="email" placeholder="kuklachev@gmail.com">
-          </div>
-          <div class="form-program__input-wrap text-input">
-            <label class="text-input__label" for="tel">Телефон:*</label>
-            <input class="text-input__input" id="tel" type="tel" placeholder="8(960)900 60 90">
+          <div class="form-program__tel-mail-wrap">
+            <div class="form-program__input-wrap text-input">
+              <label class="text-input__label" for="email">E-mail:*</label>
+              <input class="text-input__input" id="email" type="email" placeholder="kuklachev@gmail.com">
+            </div>
+            <div class="form-program__input-wrap text-input">
+              <label class="text-input__label" for="tel">Телефон:*</label>
+              <input class="text-input__input" id="tel" type="tel" placeholder="8(960)900 60 90">
+            </div>
           </div>
         </div>
 
@@ -79,24 +83,26 @@
 
         <div class="form-program__wrap form-program__wrap--titled">
           <h2 class="form-program__sub-title">Дополнительно</h2>
-          <div class="form-program__input-wrap text-checkbox">
-            <input class="visually-hidden text-checkbox__input" id="sweetener" type="checkbox" name="sweetener" checked>
-            <label class="text-checkbox__label" for="sweetener">Сахарозаменитель</label>
+          <div class="form-program__checkbox-wrap">
+            <div class="form-program__input-wrap text-checkbox">
+              <input class="visually-hidden text-checkbox__input" id="sweetener" type="checkbox" name="sweetener" checked>
+              <label class="text-checkbox__label" for="sweetener">Сахарозаменитель</label>
+            </div>
+            <div class="form-program__input-wrap text-checkbox">
+              <input class="visually-hidden text-checkbox__input" id="water" type="checkbox" name="water">
+              <label class="text-checkbox__label" for="water">Питьевая вода</label>
+            </div>
+            <div class="form-program__input-wrap text-checkbox">
+              <input class="visually-hidden text-checkbox__input" id="milk" type="checkbox" name="milk">
+              <label class="text-checkbox__label" for="milk">Молоко</label>
+            </div>
+            <div class="form-program__input-wrap text-checkbox">
+              <input class="visually-hidden text-checkbox__input" id="vitamins" type="checkbox" name="vitamins">
+              <label class="text-checkbox__label" for="vitamins">Витамины</label>
+            </div>
+            <button class="button button--form-program" type="submit">Отправить заявку</button>
+            <p class="form-program__note">* — Обязательные поля</p>
           </div>
-          <div class="form-program__input-wrap text-checkbox">
-            <input class="visually-hidden text-checkbox__input" id="water" type="checkbox" name="water">
-            <label class="text-checkbox__label" for="water">Питьевая вода</label>
-          </div>
-          <div class="form-program__input-wrap text-checkbox">
-            <input class="visually-hidden text-checkbox__input" id="milk" type="checkbox" name="milk">
-            <label class="text-checkbox__label" for="milk">Молоко</label>
-          </div>
-          <div class="form-program__input-wrap text-checkbox">
-            <input class="visually-hidden text-checkbox__input" id="vitamins" type="checkbox" name="vitamins">
-            <label class="text-checkbox__label" for="vitamins">Витамины</label>
-          </div>
-          <button class="button button--form-program" type="submit">Отправить заявку</button>
-          <p class="form-program__note">* — Обязательные поля</p>
         </div>
       </form>
     </main>

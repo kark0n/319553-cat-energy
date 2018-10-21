@@ -30,3 +30,16 @@
   background-image: url("../img/icon-tick.svg");
   background-repeat: no-repeat;
 }
+
+@media (min-width: $tablet-width) {
+  .text-checkbox {
+    width: 250px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .text-checkbox {
+    width: 180px;
+    margin-bottom: 30px;
+  }
+}

@@ -62,14 +62,26 @@
     padding: 10px 0;
     width: 632px;
   }
+
+  .button--form-program {
+    font-size: 20px;
+    width: 284px;
+    margin-left: 30px;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .button--promo {
     margin-bottom: 270px;
   }
+
   .button--addons {
     padding: 10px 0;
     width: 245px;
+  }
+
+  .button--form-program {
+    width: 570px;
+    margin-left: 10px;
   }
 }
