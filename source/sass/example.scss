@@ -122,5 +122,38 @@
 }
 
 @media (min-width: $desktop-width) {
+  .example {
+    width: 1220px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+  }
+  .example__wrap-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 0 30px;
+    width: 570px;
+    //margin: 0 auto;
+  }
 
+  .example__wrap-info-slider {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .example__item-name {
+    background-color: #f2f2f2;
+  }
+
+  .example__list {
+    width: 370px;
+  }
+
+  .example__summ {
+    font-size: 20px;
+    line-height: 20px;
+    width: 325px;
+    text-align: justify;
+  }
 }
