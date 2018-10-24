@@ -38,12 +38,18 @@
   .site-menu {
     width: 515px;
     padding-right: 110px;
-    background-color: $green;
   }
 
   .site-menu__link {
     font-size: 20px;
     line-height: 25px;
+  }
+
+  .page-index .site-menu {
+    background-color: $green;;
+  }
+
+  .page-index .site-menu__link {
     color: white;
   }
 }
