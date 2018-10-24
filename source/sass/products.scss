@@ -91,6 +91,12 @@
     border: none;
   }
 
+  .products__item-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .products__more {
     width: 324px;
     padding: 0;

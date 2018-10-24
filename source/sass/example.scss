@@ -25,7 +25,7 @@
 .example__item {
   text-align: center;
   position: relative;
-  width: 162px;
+  width: 124px;
   border: 1px solid #cdcdcd;
   border-radius: 3px;
 }
@@ -104,6 +104,9 @@
     text-align: right;
   }
 
+  .example__item {
+    width: 162px;
+  }
   .example__item-name {
     display: block;
     font-size: 14px;
@@ -123,24 +126,40 @@
 
 @media (min-width: $desktop-width) {
   .example {
-    width: 1220px;
+    width: 1300px;
     margin: 0 auto;
-    background-color: #f2f2f2;
+    background-color: $gray;
+  }
+
+  .example__title {
+    background-color: white;
+  }
+
+  .example_wrap-text-info-slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .example__text {
+    width: 435px;
+  }
+
+  .example__wrap-text-info {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
   }
 
   .example__wrap-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 40px;
     padding: 0 30px;
-    width: 570px;
-    //margin: 0 auto;
-  }
+    margin-right: auto;
 
-  .example__wrap-info-slider {
-    display: flex;
-    flex-direction: row;
   }
 
   .example__item-name {

@@ -1,5 +1,4 @@
 .products-promo {
-  outline: 1px dotted black;
   background-image: url("../img/gift-photo-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-size: 320px 305px;
@@ -37,11 +36,13 @@
     background-image: url("../img/gift-photo-desktop@1x.jpg");
     background-repeat: no-repeat;
     background-size: 245px 290px;
+    width: 245px;
     min-height: 290px;
   }
 
   .products-promo__text {
     text-align: center;
-    padding: 190px 0 0 40px;
+    padding: 0;
+    margin: 180px auto 0;
   }
 }

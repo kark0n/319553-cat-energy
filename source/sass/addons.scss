@@ -74,11 +74,17 @@
 }
 
 @media (min-width: $desktop-width) {
+  .addoms  {
+    padding: 0;
+  }
+
   .addons__item {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 895px;
+    padding: 0;
+    padding-bottom: 20px;
   }
 
   .addons__table {
@@ -88,7 +94,10 @@
   .addons__item-name {
     width: 285px;
   }
-
+  .addons__list {
+    width: 895px;
+    margin: 0 auto;
+  }
   .addons__addons-promo-wrap {
     display: flex;
     flex-direction: row;
